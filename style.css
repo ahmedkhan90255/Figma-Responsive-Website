@@ -123,7 +123,11 @@ aside {
     height: 379px;
     padding: 0px 50px;
 }
-@media (max-width:767px) {
+@media (max-width:767px) and (min-width:320px) {
+    #container1 {
+        background-color: rgba(116, 198, 157, 1);
+        height: 700px;
+    }
     .home {
         display: none;
     }
@@ -134,8 +138,25 @@ aside {
         display: flex;
         gap: 171px;
         padding: 17px 20px;
+        box-sizing: border-box;
         width: 335px;
         height: 38px;
+    }
+    aside > img {
+        width: 335px;
+        height: 196px;
+        padding: 200px 0px;
+    }
+    #afternavdiv {
+        box-sizing: border-box;
+        width: 335px;
+        height: 514px;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 600px 20px;
+    }
+    .article1 {
+        padding: 50px 0px;
     }
 
 }
