@@ -49,6 +49,9 @@
     text-align: right;
     color: rgba(255, 255, 255, 1);
 }
+.list {
+    display: none;
+}
 /* STYLING OF NAVBAR ENDS HERE */
 
 /* STYLING OF AFTER NAVBAR DIV STARTS FROM HERE  */
@@ -121,9 +124,18 @@ aside {
     padding: 0px 50px;
 }
 @media (max-width:767px) {
+    .home {
+        display: none;
+    }
+    .list {
+        display: flex;
+    }
     #navbar {
         display: flex;
-        gap: 20px;
-        width: 100%;
+        gap: 171px;
+        padding: 17px 20px;
+        width: 335px;
+        height: 38px;
     }
+
 }
