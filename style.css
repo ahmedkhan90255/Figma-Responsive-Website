@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
 
-
 * {
     padding: 0px;
     margin: 0px;
@@ -20,7 +19,7 @@
     height: 49px;
     display: flex;
     justify-content: space-between;
-    gap: 440px;
+    gap: 500px;
 }
 .navdiv1 {
     display: flex;
@@ -119,4 +118,5 @@ aside {
     box-sizing: border-box;
     width: 645px;
     height: 379px;
+    padding: 0px 50px;
 }
